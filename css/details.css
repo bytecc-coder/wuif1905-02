@@ -1,0 +1,108 @@
+article{
+    padding: 1.28rem 0;
+}
+.top-head{
+    box-shadow:0 0rem 0.4rem 0.1rem #ecf8ff;
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-right>a{
+    margin-left: 0.3rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+}
+.footer-right>a>div{
+    padding: 0.16rem 0.38rem;
+    border-radius: 0.31rem;
+}
+.footer-right-first{
+    background-image: linear-gradient(90deg,#37e06f,#32d798);
+    box-shadow: 0 0 0.3rem 0 #37df72;
+}
+.footer-right-second{
+    background: #3bacfe;
+    box-shadow: 0 0 0.3rem 0 #3bacfe;
+}
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-left>a{
+    font-size: 0.2rem;
+    text-align: center;
+    /*margin:0 0.1rem;*/
+}
+.footer-left>a>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+.footer-left-first{
+    color: #3bacfe;
+    text-shadow: 0 0 0.06rem #3bacfe;
+}.footer-left-second{
+     color:#37df72;
+     text-shadow: 0 0 0.06rem #37df72;
+     margin-left: 0.58rem;
+ }
+ .summary{
+     padding: 0 0.24rem;
+     height: 7rem;
+     background: #fbfeff;
+ }
+ .summary-intro>span{
+     display: block;
+     font-size: 0.28rem;
+     color: #646666;
+     letter-spacing: 0.04rem;
+     margin-bottom: 0.1rem;
+ }
+ .summary-intro>p{
+     display: block;
+     width: 100%;
+     font-size: 0.2rem;
+     color:#afb1b2;
+     letter-spacing: 0.04rem;
+     line-height: 0.32rem;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     -webkit-box-orient: vertical;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+ }
+ .summary-tips{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .tips-right{
+     font-size: 0.2rem;
+     color: #afb1b2;
+     position: relative;
+ }
+.tips-right::before{
+    content:"";
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #36d681;
+    top:0.1rem;
+    left:-0.2rem;
+    border-radius: 50%;
+    position: absolute;
+}
+.tips-right>span{
+    margin: 0 0.2rem;
+    color:#3bacfe;
+}
+

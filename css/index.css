@@ -1,0 +1,72 @@
+article{
+    padding-top: 1.88rem;
+}
+.banner{
+    height: 3rem;
+    overflow: hidden;
+    position: relative;
+}
+.banner>.banner-pic>li>img{
+    height:3rem;
+}
+.banner>.banner-radio{
+    display: block;
+    position: absolute;
+    width: 0.72rem;
+    height: 0.24rem;
+    bottom: 0.1rem;
+    right: 3.35rem;
+    overflow: hidden;
+}
+.banner-radio>li{
+    display: block;
+    float: left;
+    height: 0.12rem;
+    width: 0.12rem;
+    border-radius: 50%;
+    margin: 0.06rem 0.06rem 0 0.06rem;
+    overflow: hidden;
+}
+.banner-radio>li>img{
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+}
+.category{
+     padding: 0.46rem 0.12rem 0.52rem 0.33rem;
+}
+.category>ul{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.category>ul>li{
+    width: 2.3rem;
+    height: 2.35rem;
+    overflow: hidden;
+}
+.category>ul>li>a{
+    height: 2.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category>ul>li>a>div{
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:0 0.1rem 0.2rem -0.05rem #4edbfe;
+}
+.category>ul>li>a>div>img{
+    display: block;
+    max-width: 1.14rem;
+    height: 1.14rem;
+}
+.category>ul>li>a>p{
+    height:0.4rem;
+    margin-top: 0.28rem;
+    font-size: 0.24rem;
+    color: #8e9397;
+}
