@@ -71,7 +71,7 @@ article{
     height: 1.74rem;
     border-radius: 0.1rem;
 }
-.notnull-pic>img{
+.notnull-pic>a>img{
     width: 1.74rem;
     height: 1.74rem;
 }
