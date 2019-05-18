@@ -295,25 +295,34 @@ hr{
     width: 0.84rem;
     height: 1.68rem;
 }
-.recommend-intro{
+.comment-intro{
     width: 6rem;
     overflow: hidden;
     padding: 0.3rem 0;
 }
-.recommend-intro>p{
+.comment-intro>p{
     font-size: 0.24rem;
     color:#646666;
     letter-spacing: 0.03rem;
     margin: 0.1rem 0;
 }
-.recommend-intro>span{
+.comment-intro>i{
+    width:1rem;
+    height: 1rem;
+    overflow: hidden;
+}
+.comment-intro>i>img{
+    width:1rem;
+    height: 1rem;
+}
+.comment-intro>span{
     display: block;
     font-size: 0.2rem;
     color: #afb1b2;
     letter-spacing: 0.03rem;
     margin: 0.1rem 0;
 }
-.recommend-intro-first{
+.comment-intro-first{
     margin-bottom: 0.1rem;
     display: flex;
     flex-wrap: nowrap;
@@ -322,7 +331,19 @@ hr{
     align-items: center;
     font-size: 0.2rem;
 }
-.recommend-intro-first>div>i{
+.comment-intro-first>div>i{
     color: #cfcfcf;
     margin-right: 0.44rem;
+}
+.comment-intro-first>span{
+    color:#9ed5ff;
+}
+.comment-intro-first>div>span>i{
+    width:0.2rem;
+    height: 0.2rem;
+    overflow: hidden;
+}
+.comment-intro-first>div>span>i>img{
+    width:0.2rem;
+    height: 0.2rem;
 }
