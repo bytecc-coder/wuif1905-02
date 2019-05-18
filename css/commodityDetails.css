@@ -1,0 +1,105 @@
+article{
+    padding-top: 0.86rem;
+    background: #fbfeff;
+    min-height: 12rem;
+}
+article>img{
+    display: block;
+    width: 100%;
+    height: 3.66rem;
+}
+article>div{
+    padding: 0 0.24rem;
+}
+.first{
+    margin-top: -0.6rem;
+    margin-bottom: 0.38rem;
+}
+.first>div{
+    display: inline-block;
+}
+.first>div:first-child{
+    width: 1.64rem;
+    height: 1.64rem;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    box-shadow:0 0.1rem 0.2rem 0rem #59c3fe61;
+}
+.first>div>img{
+    width: 1.64rem;
+    height: 1.64rem;
+}
+.first>div:nth-child(2){
+    color: #36a8fe;
+    font-size: 0.24rem;
+}
+article>div>i{
+    font-size: 0.2rem;
+    color:#36a8fe;
+    margin-left: 0.16rem;
+    position:relative;
+}
+article>div>i::before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.1rem;
+    top:0.1rem;
+    background: #36a8fe;
+}
+.third>i::before{
+    background: #36d681;
+}
+
+.second>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.1rem;
+}
+.second>ul>li{
+    height: 0.22rem;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    padding: 0.44rem 0.68rem;
+    color: #36a8fe;
+    background: #f1faff;
+    border-radius: 0.1rem;
+    letter-spacing: 0.04rem;
+    margin: 0.2rem 0.2rem 0.1rem 0;
+}
+.third>div{
+    margin-top: 0.2rem;
+}
+.third>div>i{
+    padding: 0.16rem 0.12rem;
+    height: 0.4rem;
+    width: 0.94rem;
+    line-height: 0.1rem;
+    text-align: center;
+    border-radius: 0.38rem;
+    overflow: hidden;
+    font-size: 0.2rem;
+    color: #36a8fe;
+}
+.third>div>button{
+    padding: 0.16rem 0.12rem;
+    font-size: 0.4rem;
+    height: 0.4rem;
+    width: 0.94rem;
+    line-height: 0.1rem;
+    text-align: center;
+    border-radius: 0.38rem;
+    overflow: hidden;
+    color: #ffffff;
+}
+.third>div>button:first-child{
+    background: #e7f6ff;
+}
+.third>div>button:last-child{
+    background: #3bacfe;
+}

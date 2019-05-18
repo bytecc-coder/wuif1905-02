@@ -1,4 +1,4 @@
-@import "//at.alicdn.com/t/font_1194318_8dvvb5g09pd.css";
+@import "//at.alicdn.com/t/font_1194318_m8thtmt4et.css";
 *{
     padding: 0;
     margin: 0;
@@ -14,6 +14,12 @@ body {
 }
 i{
     font-style: normal;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
 }
 hr{
     border: 0;
@@ -57,7 +63,7 @@ header{
     position: relative;
     padding:0 0.24rem;
 }
-header>a{
+header>.pre{
     display:block;
     line-height: 0.88rem;
     position: absolute;
@@ -67,8 +73,17 @@ header>a{
     font-weight: bold;
     font-size: 0.5rem !important;
 }
-header>a::after{
+header>.pre::after{
     clear: both;
+}
+header>.more{
+    display:block;
+    line-height: 0.88rem;
+    position: absolute;
+    right: 0.24rem;
+    top: 0.02rem;
+    color: #36a8fe;
+    font-size: 0.5rem !important;
 }
 .search{
     padding: 0.17rem 0.22rem;
@@ -140,11 +155,11 @@ footer{
     bottom: 0;
     height: 1rem;
     width: 100%;
-    padding: 0 0.22rem;
+    padding: 0 0.42rem;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background: #f8fcff;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 footer>a{
     width: 0.7rem;
@@ -201,3 +216,52 @@ footer>a>img{
     margin: 0 auto;
     max-width: 3rem;
 }
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-right>a{
+    margin-left: 0.3rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+}
+.footer-right>a>div{
+    padding: 0.16rem 0.38rem;
+    border-radius: 0.31rem;
+}
+.footer-right-first{
+    background-image: linear-gradient(90deg,#37e06f,#32d798);
+    box-shadow: 0 0 0.3rem 0 #37df72;
+}
+.footer-right-second{
+    background: #3bacfe;
+    box-shadow: 0 0 0.3rem 0 #3bacfe;
+}
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-left>a{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.footer-left>a>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+.footer-left-first{
+    color: #3bacfe;
+    text-shadow: 0 0 0.06rem #3bacfe;
+}.footer-left-second{
+     color:#37df72;
+     text-shadow: 0 0 0.06rem #37df72;
+     margin-left: 0.58rem;
+ }

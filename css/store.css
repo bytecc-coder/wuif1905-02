@@ -61,8 +61,19 @@ article{
 .commodity{
     width: 3.28rem;
     height: 3.28rem;
-    /*background: #4edbfe;*/
     margin-top: 0.4rem;
+    position: relative;
+}
+.commodity>i{
+    padding: 0.04rem 0.1rem;
+    font-size: 0.16rem;
+    color: #ffffff;
+    background:#34da87 ;
+    border-radius: 0.15rem;
+    position: absolute;
+    right: 0.1rem;
+    top:0.1rem;
+    box-shadow: 0 0 0.2rem 0 #34da87;
 }
 .commodity>a{
     width: 3.28rem;
