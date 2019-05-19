@@ -6,7 +6,16 @@ article{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 0.2rem;
+}
+.advertisement{
+    margin: 0.32rem 0.2rem 0.12rem 0.2rem;
+    height: 2.56rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+.advertisement>img{
+    height:2.56rem;
+    width: 100%;
 }
 .advertisement-left{
     margin-left: 0.2rem;

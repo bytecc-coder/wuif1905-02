@@ -155,6 +155,8 @@ header>.more{
 footer{
     position: fixed;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     left: 0;
     bottom: 0;
     height: 1rem;
@@ -196,16 +198,6 @@ footer>a>img{
 }
 .select-in{
     box-shadow: 0 0 0.2rem 0.01rem #3bacfe;
-}
-.advertisement{
-    margin: 0.22rem 0.2rem 0.22rem 0.2rem;
-    height: 2.56rem;
-    border-radius: 0.2rem;
-    overflow: hidden;
-}
-.advertisement>img{
-    height:2.56rem;
-    width: 100%;
 }
 .details-pic{
     height: 4.94rem;
