@@ -48,7 +48,7 @@ article{
     padding: 0.34rem;
     background-image: url("../images/015.png");
     background-repeat: no-repeat;
-    background-size:125%;
+    background-size:auto 80%;
 }
 .assets-card{
     width: 5.82rem;
