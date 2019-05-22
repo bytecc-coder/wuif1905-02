@@ -22,10 +22,10 @@
     height: 0.4rem;
     max-width: 0.38rem;
 }
-.operation>ul>li:nth-child(2) a>span{
+.black{
     color: #4b4c4c;
 }
-.operation>ul>li:nth-child(4) a>span{
+.blue{
     color: #36a8fe;
 }
 .operation>span{

@@ -37,10 +37,12 @@ article{
 .operation>ul>li>a>span{
     font-size: 0.24rem;
     font-weight: bold;
-    color: #fe624e;
     position: absolute;
     right: 0;
     bottom:0rem;
+}
+.red{
+    color: #fe624e;
 }
 .assets{
     display: block;

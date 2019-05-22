@@ -1,0 +1,16 @@
+input{
+    outline-style: none;
+}
+article{
+    padding-top: 0.88rem;
+}
+.operation{
+    width: 100%;
+}
+.operation>ul{
+    padding: 0 0.24rem;
+}
+.operation>ul>li{
+    padding: 0.32rem 0;
+    border-bottom: 0.02rem solid #f6f9fa;
+}
